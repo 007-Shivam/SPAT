@@ -9,7 +9,7 @@ export default function CarHomePage() {
   return (
     <>
       <Helmet>
-        <title>RENT A CAR</title>
+        <title>Samarth Tourism & Properties</title>
       </Helmet>
       <Navbar />
     </>

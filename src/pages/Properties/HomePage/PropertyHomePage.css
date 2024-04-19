@@ -1,0 +1,126 @@
+.property-hero{
+    margin: 20px;
+    width: 97%;
+    height: 85vh;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50px;
+}
+
+.hero-descrption{
+    height: 85vh;
+    width: 80%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 90;
+    display: flex;
+    border-radius: 50px;
+}
+
+video {
+    width: 100%; 
+    height: 114vh;
+    filter: blur(5px);
+}
+
+.box{
+    background-color: #000080;
+    height: 205vh;
+    width: 100%;
+    transform: rotate(-50deg);
+    position: relative;
+    right: 262px;
+    box-shadow: 5px 5px 25px #000080;
+}
+
+.hero-descrption p{
+    padding-top: 140px;
+    padding-left: 30px;
+    position: absolute;
+    z-index: 99;
+    font-size: 3rem;
+    color: #f9d628  ;
+}
+
+.property-hero button{
+    position: absolute;
+    z-index: 99;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 15px;
+    bottom: 150px;
+    margin: 10px;
+    border: 2px solid #f9d628;
+    box-shadow: #f9d628   inset 2px 2px 10px;
+    color: #f9d628;
+    background-color: #000080;
+}
+
+.find-a-home{
+    padding: 15px;
+    left: 80px;
+}
+.rent-place{
+    left: 280px;
+}
+
+.property-hero button:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s ease-out;
+}
+
+h4{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.three-section{
+    margin: 20px;
+    width: 97%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-section div{
+    margin: 30px;
+    padding: 10px;
+    width: 25%;
+    height: 80%;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #000080;
+    border-radius: 20px;
+}
+
+.three-section div:hover{
+    box-shadow: 3px 3px 15px #007FFF;
+}
+
+.three-section div img{
+    margin-left: 30px;
+    width: 200px;
+    filter: drop-shadow(3px 1px 4px #000);
+}
+
+.three-section div p{
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-button{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #000080;
+    color: #fff;
+    font-size: medium;
+}
+
+.section-button:hover{
+    border: 5px solid #007FFF;
+    background-color: #fff;
+    color: #000;
+    transition: 0.1s ease-in;
+}
