@@ -27,7 +27,7 @@ export default function TourismNavbarComponent() {
         </div>
         <ul>
           <li>
-            <Link to="/fleet" className={`${location.pathname === '/fleet' ? 'active ' : ''}carpg`} onClick={closeNav}>
+            <Link to="/carfleet" className={`${location.pathname === '/carfleet' ? 'active ' : ''}carpg`} onClick={closeNav}>
               FLEET
             </Link>
           </li>

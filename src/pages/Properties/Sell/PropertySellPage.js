@@ -7,7 +7,7 @@ export default function PropertySellPage() {
   return (
     <>
       <Helmet>
-        <title>SELL</title>
+        <title>SELL A PROPERTY</title>
       </Helmet>
       <Navbar />
     </>

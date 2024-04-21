@@ -1,4 +1,4 @@
-.property-hero{
+.property-hero {
     margin: 20px;
     width: 97%;
     height: 85vh;
@@ -7,7 +7,7 @@
     border-radius: 50px;
 }
 
-.hero-descrption{
+.hero-descrption {
     height: 85vh;
     width: 80%;
     overflow: hidden;
@@ -18,12 +18,12 @@
 }
 
 video {
-    width: 100%; 
+    width: 100%;
     height: 114vh;
     filter: blur(5px);
 }
 
-.box{
+.box {
     background-color: #000080;
     height: 205vh;
     width: 100%;
@@ -33,16 +33,16 @@ video {
     box-shadow: 5px 5px 25px #000080;
 }
 
-.hero-descrption p{
+.hero-descrption p {
     padding-top: 140px;
     padding-left: 30px;
     position: absolute;
     z-index: 99;
     font-size: 3rem;
-    color: #f9d628  ;
+    color: #f9d628;
 }
 
-.property-hero button{
+.property-hero button {
     position: absolute;
     z-index: 99;
     font-size: 1rem;
@@ -51,66 +51,68 @@ video {
     bottom: 150px;
     margin: 10px;
     border: 2px solid #f9d628;
-    box-shadow: #f9d628   inset 2px 2px 10px;
+    box-shadow: #f9d628 inset 2px 2px 10px;
     color: #f9d628;
     background-color: #000080;
 }
 
-.find-a-home{
+.find-a-home {
     padding: 15px;
     left: 80px;
 }
-.rent-place{
+
+.rent-place {
     left: 280px;
 }
 
-.property-hero button:hover{
+.property-hero button:hover {
     background-color: #fff;
     color: black;
     transition: 0.5s ease-out;
 }
 
-h4{
+h4, h3 {
     text-align: center;
     font-size: 3.5rem;
 }
 
-.three-section{
-    margin: 20px;
+.three-section {
+    margin: 20px 0px;
     width: 97%;
     height: 70vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.three-section div{
+.three-section div {
     margin: 30px;
     padding: 10px;
-    width: 25%;
+    width: 20%;
     height: 80%;
-    display:grid;
+    display: grid;
     justify-content: center;
     align-items: center;
     border: 5px solid #000080;
     border-radius: 20px;
 }
 
-.three-section div:hover{
+.three-section div:hover {
     box-shadow: 3px 3px 15px #007FFF;
+    transform: translateY(5px);
 }
 
-.three-section div img{
+.three-section div img {
     margin-left: 30px;
     width: 200px;
     filter: drop-shadow(3px 1px 4px #000);
 }
 
-.three-section div p{
+.three-section div p {
     font-weight: 600;
     text-align: center;
 }
 
-.section-button{
+.section-button {
     padding: 15px;
     border-radius: 30px;
     background-color: #000080;
@@ -118,9 +120,216 @@ h4{
     font-size: medium;
 }
 
-.section-button:hover{
+.section-button:hover {
     border: 5px solid #007FFF;
     background-color: #fff;
     color: #000;
     transition: 0.1s ease-in;
+}
+
+
+
+
+
+
+
+.info{
+    margin: 20px;
+    width: 97%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us{
+    width: 30%;
+    height: 30vh;
+    border: 3px solid #000080;
+    box-shadow: 3px 2px 5px #000080;
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+.about-us div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us div img{
+    width: 70px;
+}
+
+.about-us p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .property-hero {
+        margin: 20px;
+        margin-top: -30px;
+        width: 90%;
+        height: 85vh;
+        display: grid;
+    }
+    
+    .hero-descrption {
+        height: 85vh;
+        width: 88%;
+    }
+    
+    video {
+        width: 95%;
+        height: 114vh;
+        position: relative;
+        bottom: 250px;
+        filter: blur(3px);
+    }
+    
+    .box {
+        height: 220vh;
+        width: 150vh;
+        transform: rotate(-450deg);
+        left: 300px;
+        bottom: 380px;
+    }
+    
+    .hero-descrption p {
+        padding-top: 300px;
+        padding-left: 30px;
+        font-size: 2rem;
+    }
+    
+    .property-hero button {
+        padding: 15px;
+        bottom: 50px;
+        margin: 10px;
+    }
+    
+    .find-a-home {
+        left: 50px;
+    }
+    
+    .rent-place {
+        left: 200px;
+    }
+
+    .three-section {
+        display: grid;
+        margin: 80px;
+        margin-top: 50px;
+        width: 57%;
+        height: 100vh;
+    }
+
+    .three-section div {
+        margin: 10px;
+        padding: 10px;
+        width: 85%;
+        height: 90%;
+    }
+
+    .three-section div img {
+        margin: 20px;
+        width: 100px;
+    }
+    
+    .three-section div p {
+        font-weight: 600;
+    }
+    
+    .section-button {
+        margin: 5px;
+        padding: 10px;
+        font-size:small;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    h3{
+        font-size: 2.5rem;
+    }
+
+    .info{
+        margin: 20px 80px;
+        width: 57%;
+        height: 120vh;
+        display: grid;
+    }
+    
+    .about-us{
+        width: 80%;
+        height: 30vh;
+        padding: 10px;
+    }
+    .about-us div img{
+        width: 40px;
+    }
+    
+    .about-us p{
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

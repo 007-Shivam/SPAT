@@ -28,23 +28,23 @@ export default function PropertyNavbarComponent() {
         </div>
         <ul>
           <li>
-            <Link to="/propertybuypage" className={location.pathname === '/propertybuypage' ? 'active' : ''} onClick={closeNav}>
+            <Link to="/propertybuy" className={location.pathname === '/propertybuy' ? 'active' : ''} onClick={closeNav}>
               BUY
             </Link>
           </li>
           <li>
-            <Link to="/propertysellpage" className={location.pathname === '/propertysellpage' ? 'active' : ''} onClick={closeNav}>
+            <Link to="/propertysell" className={location.pathname === '/propertysell' ? 'active' : ''} onClick={closeNav}>
               SELL
             </Link>
           </li>
           <li>
-            <Link to="/propertyrentpage" className={location.pathname === '/propertyrentpage' ? 'active' : ''} onClick={closeNav}>
+            <Link to="/propertyrent" className={location.pathname === '/propertyrent' ? 'active' : ''} onClick={closeNav}>
               RENT
             </Link>
           </li>
           <li>
-            <Link to="/carhomepage"
-              className={`${location.pathname === '/carhomepage' ? 'active ' : ''}Car`} onClick={closeNav}>
+            <Link to="/rentacar"
+              className={`${location.pathname === '/rentacar' ? 'active ' : ''}Car`} onClick={closeNav}>
               RENT A CAR
             </Link>
           </li>

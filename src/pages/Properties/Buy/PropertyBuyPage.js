@@ -8,7 +8,7 @@ export default function PropertyBuyPage() {
   return (
     <>
       <Helmet>
-        <title>BUY</title>
+        <title>BUY A PROPERTY</title>
       </Helmet>
       <Navbar />
     </>

@@ -8,7 +8,7 @@ export default function Fleet() {
   return (
     <>
       <Helmet>
-        <title>FLEET</title>
+        <title>FLEET OF CARS</title>
       </Helmet>
       <Navbar />
     </>

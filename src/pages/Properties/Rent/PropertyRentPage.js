@@ -7,7 +7,7 @@ export default function PropertyRentPage() {
   return (
     <>
       <Helmet>
-        <title>RENT</title>
+        <title>RENT A PROPERTY</title>
       </Helmet>
       <Navbar />
 
