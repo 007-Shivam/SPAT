@@ -1,0 +1,20 @@
+[
+    {
+        "location": "Kandivali",
+        "banners": [
+            "https://i.imgur.com/oo09Aic.jpg",
+            "https://i.imgur.com/5GamJ5U.jpg",
+            "https://i.imgur.com/FlyTy3U.jpg"
+        ],
+        "description": "1 BHK"
+    },
+    {
+        "location": "Kandivali",
+        "banners": [
+            "https://i.imgur.com/5GamJ5U.jpg",
+            "https://i.imgur.com/oo09Aic.jpg",
+            "https://i.imgur.com/FlyTy3U.jpg"
+        ],
+        "description": "1 BHK"
+    }
+]
