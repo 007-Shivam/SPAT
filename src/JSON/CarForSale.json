@@ -1,0 +1,72 @@
+[
+    {
+        "location": "Mumbai",
+        "banners": [
+            "https://i.imgur.com/5GamJ5U.jpg",
+            "https://i.imgur.com/oo09Aic.jpg",
+            "https://i.imgur.com/FlyTy3U.jpg"
+        ],
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "mileage": 15000,
+        "fuel_type": "Petrol",
+        "description": "Well-maintained, low mileage, excellent condition."
+    },
+    {
+        "location": "Delhi",
+        "banners": [
+            "https://i.imgur.com/FlyTy3U.jpg",
+            "https://i.imgur.com/5GamJ5U.jpg",
+            "https://i.imgur.com/oo09Aic.jpg"
+        ],
+        "make": "Hyundai",
+        "model": "Creta",
+        "year": 2019,
+        "mileage": 25000,
+        "fuel_type": "Diesel",
+        "description": "Top variant, sunroof, single owner."
+    },
+    {
+        "location": "Bangalore",
+        "banners": [
+            "https://i.imgur.com/oo09Aic.jpg",
+            "https://i.imgur.com/FlyTy3U.jpg",
+            "https://i.imgur.com/5GamJ5U.jpg"
+        ],
+        "make": "Maruti Suzuki",
+        "model": "Swift",
+        "year": 2021,
+        "mileage": 10000,
+        "fuel_type": "Petrol",
+        "description": "Automatic transmission, great for city driving."
+    },
+    {
+        "location": "Chennai",
+        "banners": [
+            "https://i.imgur.com/oo09Aic.jpg",
+            "https://i.imgur.com/5GamJ5U.jpg",
+            "https://i.imgur.com/FlyTy3U.jpg"
+        ],
+        "make": "Honda",
+        "model": "City",
+        "year": 2018,
+        "mileage": 30000,
+        "fuel_type": "Petrol",
+        "description": "Comfortable sedan, reliable performance."
+    },
+    {
+        "location": "Chennai",
+        "banners": [
+            "https://i.imgur.com/oo09Aic.jpg",
+            "https://i.imgur.com/5GamJ5U.jpg",
+            "https://i.imgur.com/FlyTy3U.jpg"
+        ],
+        "make": "Honda",
+        "model": "City",
+        "year": 2018,
+        "mileage": 30000,
+        "fuel_type": "Petrol",
+        "description": "Comfortable sedan, reliable performance."
+    }
+]

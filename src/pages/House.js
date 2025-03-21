@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 
 import '../styles/House.css'
-import CardComponent from '../components/card/CardComponent'
-import RentJSON from '../data/HouseForRent.json'
-import SaleJSON from '../data/HouseForSale.json'
+import CardComponent from '../components/cards/house/CardComponent'
+import RentJSON from '../JSON/HouseForRent.json'
+import SaleJSON from '../JSON/HouseForSale.json'
 
 export default function House() {
     const [data, setData] = useState([]);

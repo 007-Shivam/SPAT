@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router';
+import { Link } from 'react-router';
 import './NavbarComponent.css';
 
 import car from '../../assets/car.gif';
 import house from '../../assets/house.gif';
+import login from '../../assets/login.gif';
 
 
 export default function Navbar() {
@@ -51,6 +52,13 @@ export default function Navbar() {
           <Link to="/house" class="nav-link">
             <img src={house} alt='logo' className='items'></img>
             <span class="link-text">HOUSE</span>
+          </Link>
+        </li>
+
+        <li class="nav-item">
+          <Link to="/login" class="nav-link">
+            <img src={login} alt='logo' className='items'></img>
+            <span class="link-text">LOGIN</span>
           </Link>
         </li>
       </ul>
