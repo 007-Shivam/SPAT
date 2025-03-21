@@ -11,8 +11,9 @@
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
     color: rgb(160, 55, 55);
+    font-family: 'Righteous', sans-serif;
 }
 
 .the-btns{
