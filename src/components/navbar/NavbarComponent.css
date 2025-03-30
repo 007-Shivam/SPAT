@@ -8,25 +8,6 @@
   --transition-speed: 600ms;
 }
 
-/* body {
-  color: black;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-} */
-
-/* body::-webkit-scrollbar {
-  width: 0.5rem;
-} */
-
-/* body::-webkit-scrollbar-track {
-  background: #1e1e24;
-} */
-
-/* body::-webkit-scrollbar-thumb {
-  background: #6649b8;
-} */
-
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
@@ -49,10 +30,6 @@
   width: 100%;
   margin: 20px 0px;
 }
-
-/* .nav-item:last-child {
-  margin-top: auto;
-} */
 
 .nav-link {
   display: flex;
